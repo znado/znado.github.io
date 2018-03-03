@@ -1,0 +1,65 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  background-color: #fafeff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+/* Note: background-size has to be below background */
+#twitter-logo {
+  background: url(/assets/images/twitter.svg);
+  background-size: 24px 24px;
+}
+#github-logo {
+  background: url(/assets/images/github.svg);
+  background-size: 24px 24px;
+}
+
+#expertise-toggle-wrapper {
+  display: block;
+  width: 45%;
+  margin: 0 auto 16px auto;
+}
+.expertise-toggle-option {
+  color: #fafafa;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0;
+  white-space: nowrap;
+  width: 45%;
+}
+.expertise-toggle-option:link, .expertise-toggle-option:visited, .expertise-toggle-option:hover, .expertise-toggle-option:active {
+  color: #fafafa;
+  font-weight: normal;
+}
+#non-expert-mode {
+  background-color: #fafeff;
+  border: 2px solid #00b257;
+  border-radius: 5px 0 0 5px;
+  color: #00b257;
+}
+#non-expert-mode[version-selected="true"] {
+  background-color: #00b257;
+  color: #fafafa;
+}
+#expert-mode {
+  background-color: #fafeff;
+  border: 2px solid #e71d36;
+  border-radius: 0 5px 5px 0;
+  color: #e71d36;
+}
+#expert-mode[version-selected="true"] {
+  background-color: #e71d36;
+  color: #fafafa;
+}
