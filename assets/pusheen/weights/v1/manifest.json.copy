@@ -1,0 +1,667 @@
+{
+  "BeganGenerator/Conv/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_1/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_1_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_1/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_1_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_10/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_10_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_10/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_10_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_11/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_11_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_11/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_11_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_12/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_12_BatchNorm_mean", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_12/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_12_BatchNorm_variance", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_13/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_13_BatchNorm_mean", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_13/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_13_BatchNorm_variance", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_14/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_14_BatchNorm_mean", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_14/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_14_BatchNorm_variance", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_15/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_15_BatchNorm_mean", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/Conv_15/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_15_BatchNorm_variance", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/Conv_2/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_2_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_2/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_2_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_3/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_3_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_3/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_3_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_4/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_4_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_4/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_4_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_5/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_5_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_5/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_5_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_6/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_6_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_6/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_6_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_7/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_7_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_7/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_7_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_8/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_8_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_8/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_8_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_9/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_9_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_9/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_9_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm_mean": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_mean", 
+    "shape": [
+      12800
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm_variance": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_variance", 
+    "shape": [
+      12800
+    ]
+  },
+  "BeganGenerator/Conv/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_1/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_1_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_1/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_1_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_10/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_10_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_10/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_10_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_11/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_11_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_11/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_11_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_12/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_12_BatchNorm_mean", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_12/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_12_BatchNorm_variance", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_13/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_13_BatchNorm_mean", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_13/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_13_BatchNorm_variance", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_14/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_14_BatchNorm_mean", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_14/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_14_BatchNorm_variance", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_15/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_15_BatchNorm_mean", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/Conv_15/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_15_BatchNorm_variance", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/Conv_2/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_2_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_2/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_2_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_3/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_3_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_3/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_3_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_4/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_4_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_4/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_4_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_5/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_5_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_5/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_5_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_6/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_6_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_6/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_6_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_7/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_7_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_7/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_7_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_8/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_8_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_8/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_8_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_9/BatchNorm_mean": {
+    "filename": "BeganGenerator_Conv_9_BatchNorm_mean", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_9/BatchNorm_variance": {
+    "filename": "BeganGenerator_Conv_9_BatchNorm_variance", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm_mean": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_mean", 
+    "shape": [
+      12800
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm_variance": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_variance", 
+    "shape": [
+      12800
+    ]
+  },
+  "BeganGenerator/Conv/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv/weights": {
+    "filename": "BeganGenerator_Conv_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_1/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_1_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_1/weights": {
+    "filename": "BeganGenerator_Conv_1_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_10/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_10_BatchNorm_beta", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_10/weights": {
+    "filename": "BeganGenerator_Conv_10_weights", 
+    "shape": [
+      3, 
+      3, 
+      32, 
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_11/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_11_BatchNorm_beta", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_11/weights": {
+    "filename": "BeganGenerator_Conv_11_weights", 
+    "shape": [
+      3, 
+      3, 
+      32, 
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_12/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_12_BatchNorm_beta", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_12/weights": {
+    "filename": "BeganGenerator_Conv_12_weights", 
+    "shape": [
+      3, 
+      3, 
+      33, 
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_13/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_13_BatchNorm_beta", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_13/weights": {
+    "filename": "BeganGenerator_Conv_13_weights", 
+    "shape": [
+      3, 
+      3, 
+      16, 
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_14/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_14_BatchNorm_beta", 
+    "shape": [
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_14/weights": {
+    "filename": "BeganGenerator_Conv_14_weights", 
+    "shape": [
+      3, 
+      3, 
+      16, 
+      16
+    ]
+  }, 
+  "BeganGenerator/Conv_15/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_15_BatchNorm_beta", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/Conv_15/weights": {
+    "filename": "BeganGenerator_Conv_15_weights", 
+    "shape": [
+      3, 
+      3, 
+      16, 
+      3
+    ]
+  }, 
+  "BeganGenerator/Conv_2/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_2_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_2/weights": {
+    "filename": "BeganGenerator_Conv_2_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_3/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_3_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_3/weights": {
+    "filename": "BeganGenerator_Conv_3_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/Conv_4/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_4_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_4/weights": {
+    "filename": "BeganGenerator_Conv_4_weights", 
+    "shape": [
+      3, 
+      3, 
+      129, 
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_5/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_5_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_5/weights": {
+    "filename": "BeganGenerator_Conv_5_weights", 
+    "shape": [
+      3, 
+      3, 
+      64, 
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_6/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_6_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_6/weights": {
+    "filename": "BeganGenerator_Conv_6_weights", 
+    "shape": [
+      3, 
+      3, 
+      64, 
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_7/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_7_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_7/weights": {
+    "filename": "BeganGenerator_Conv_7_weights", 
+    "shape": [
+      3, 
+      3, 
+      64, 
+      64
+    ]
+  }, 
+  "BeganGenerator/Conv_8/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_8_BatchNorm_beta", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_8/weights": {
+    "filename": "BeganGenerator_Conv_8_weights", 
+    "shape": [
+      3, 
+      3, 
+      65, 
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_9/BatchNorm/beta": {
+    "filename": "BeganGenerator_Conv_9_BatchNorm_beta", 
+    "shape": [
+      32
+    ]
+  }, 
+  "BeganGenerator/Conv_9/weights": {
+    "filename": "BeganGenerator_Conv_9_weights", 
+    "shape": [
+      3, 
+      3, 
+      32, 
+      32
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm/beta": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_beta", 
+    "shape": [
+      12800
+    ]
+  }, 
+  "BeganGenerator/fully_connected/weights": {
+    "filename": "BeganGenerator_fully_connected_weights", 
+    "shape": [
+      100, 
+      12800
+    ]
+  }, 
+  "k_t": {
+    "filename": "k_t", 
+    "shape": []
+  }
+}

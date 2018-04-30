@@ -1,0 +1,607 @@
+{
+  "BeganGenerator/SeparableConv2d/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_BatchNorm_mean", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_BatchNorm_variance", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_1/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_1_BatchNorm_mean", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_1/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_1_BatchNorm_variance", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_10/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_10_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_10/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_10_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_11/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_11_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_11/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_11_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_12/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_12_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_12/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_12_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_13/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_13_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_13/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_13_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_14/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_14_BatchNorm_mean", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_14/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_14_BatchNorm_variance", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_15/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_15_BatchNorm_mean", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_15/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_15_BatchNorm_variance", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_2/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_2_BatchNorm_mean", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_2/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_2_BatchNorm_variance", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_3/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_3_BatchNorm_mean", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_3/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_3_BatchNorm_variance", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_4/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_4_BatchNorm_mean", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_4/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_4_BatchNorm_variance", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_5/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_5_BatchNorm_mean", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_5/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_5_BatchNorm_variance", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_6/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_6_BatchNorm_mean", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_6/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_6_BatchNorm_variance", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_7/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_7_BatchNorm_mean", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_7/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_7_BatchNorm_variance", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_8/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_8_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_8/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_8_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_9/BatchNorm_mean": {
+    "filename": "BeganGenerator_SeparableConv2d_9_BatchNorm_mean", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_9/BatchNorm_variance": {
+    "filename": "BeganGenerator_SeparableConv2d_9_BatchNorm_variance", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm_mean": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_mean", 
+    "shape": [
+      51200
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm_variance": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_variance", 
+    "shape": [
+      51200
+    ]
+  },
+  "BeganGenerator/SeparableConv2d/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_BatchNorm_beta", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      512, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      512, 
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_1/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_1_BatchNorm_beta", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_1/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_1_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      512, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_1/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_1_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      512, 
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_10/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_10_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_10/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_10_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_10/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_10_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_11/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_11_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_11/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_11_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_11/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_11_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_12/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_12_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_12/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_12_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      129, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_12/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_12_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      129, 
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_13/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_13_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_13/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_13_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      64, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_13/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_13_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      64, 
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_14/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_14_BatchNorm_beta", 
+    "shape": [
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_14/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_14_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      64, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_14/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_14_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      64, 
+      64
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_15/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_15_BatchNorm_beta", 
+    "shape": [
+      3
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_15/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_15_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      64, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_15/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_15_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      64, 
+      3
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_2/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_2_BatchNorm_beta", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_2/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_2_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      512, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_2/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_2_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      512, 
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_3/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_3_BatchNorm_beta", 
+    "shape": [
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_3/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_3_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      512, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_3/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_3_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      512, 
+      512
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_4/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_4_BatchNorm_beta", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_4/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_4_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      513, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_4/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_4_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      513, 
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_5/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_5_BatchNorm_beta", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_5/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_5_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      256, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_5/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_5_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      256, 
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_6/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_6_BatchNorm_beta", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_6/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_6_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      256, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_6/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_6_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      256, 
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_7/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_7_BatchNorm_beta", 
+    "shape": [
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_7/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_7_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      256, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_7/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_7_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      256, 
+      256
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_8/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_8_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_8/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_8_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      257, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_8/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_8_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      257, 
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_9/BatchNorm/beta": {
+    "filename": "BeganGenerator_SeparableConv2d_9_BatchNorm_beta", 
+    "shape": [
+      128
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_9/depthwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_9_depthwise_weights", 
+    "shape": [
+      3, 
+      3, 
+      128, 
+      1
+    ]
+  }, 
+  "BeganGenerator/SeparableConv2d_9/pointwise_weights": {
+    "filename": "BeganGenerator_SeparableConv2d_9_pointwise_weights", 
+    "shape": [
+      1, 
+      1, 
+      128, 
+      128
+    ]
+  }, 
+  "BeganGenerator/fully_connected/BatchNorm/beta": {
+    "filename": "BeganGenerator_fully_connected_BatchNorm_beta", 
+    "shape": [
+      51200
+    ]
+  }, 
+  "BeganGenerator/fully_connected/weights": {
+    "filename": "BeganGenerator_fully_connected_weights", 
+    "shape": [
+      100, 
+      51200
+    ]
+  }, 
+  "k_t": {
+    "filename": "k_t", 
+    "shape": []
+  }
+}

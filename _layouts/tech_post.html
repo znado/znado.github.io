@@ -2,23 +2,38 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
 
 <div id="expertise-toggle-wrapper">
   <!-- Cannot have a space or newline between the two toggle options else display: inline-block; doesn't work. -->
-  <a href="#non-expert" id="non-expert-mode" class="expertise-toggle-option">Non-Expert</a><a href="#expert"  id="expert-mode" class="expertise-toggle-option">Expert</a>
+  <a href="#non-expert" id="non-expert-mode" class="expertise-toggle-option">Non-Expert</a><a href="#expert" id="expert-mode" class="expertise-toggle-option">Expert</a>
 </div>
-<p id="non-expert-version-description">You're reading the version of this post I wrote for people that <b>don't</b> have a background in machine learning.  If you would like to read the more technically in depth version, click the <b>expert</b> button above.</p>
-<p id="expert-version-description">You're reading the version of this post I wrote for people that <b>do</b> have a background in machine learning.  If you would like to read the less technically in depth version, click the <b>non-expert</b> button above.</p>
+<p id="non-expert-version-description">You're reading the <b>non-expert</b> version of this post I wrote for people that <b>don't</b> have a background in machine learning.  If you would like to read the more technically in-depth version, click the expert button above.</p>
+<p id="expert-version-description">You're reading the <b>expert</b> version of this post I wrote for people that <b>do</b> have a background in machine learning.  If you would like to read the less technically in-depth version, click the non-expert button above.</p>
 <hr>
 <script>
+document.addEventListener("DOMContentLoaded", function(event) {
   // If someone manually edits the fragment then the page doesn't reload so this
   // won't be run but that's a risk I'm willing to take.
   var nonExpertVersionToggleButton = document.getElementById('non-expert-mode');
   var expertVersionToggleButton = document.getElementById('expert-mode');
   var nonExpertpostVersionDescription = document.getElementById('non-expert-version-description');
   var expertpostVersionDescription = document.getElementById('expert-version-description');
+  var nonExpertpostVersionContents = document.getElementsByClassName('non-expert-version-content');
+  var expertpostVersionContents = document.getElementsByClassName('expert-version-content');
+
+  var hide = function (elements) {
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].style.display = 'none'
+    }
+  };
+  var show = function (elements) {
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].style.display = 'block'
+    }
+  };
+
   var setPostVersion = function (elementId) {
     var expert = elementId == 'expert-mode';
     if (expert) {
@@ -26,13 +41,19 @@ layout: default
       expertVersionToggleButton.setAttribute('version-selected', 'true');
       nonExpertpostVersionDescription.style.display = 'none';
       expertpostVersionDescription.style.display = 'block';
+      hide(nonExpertpostVersionContents);
+      show(expertpostVersionContents);
     } else {
       nonExpertVersionToggleButton.setAttribute('version-selected', 'true');
       expertVersionToggleButton.setAttribute('version-selected', 'false');
       nonExpertpostVersionDescription.style.display = 'block';
       expertpostVersionDescription.style.display = 'none';
+      show(nonExpertpostVersionContents);
+      hide(expertpostVersionContents);
     }
-  }
+  };
+
+
   var urlFragment = window.location.hash;
   if(urlFragment) {
     if (urlFragment == '#non-expert') {
@@ -47,13 +68,18 @@ layout: default
     // default to non-expert mode
     setPostVersion('non-expert-mode');
   }
+
+
   var postVersionClickHandler = function () {
     setPostVersion(this.getAttribute('id'));
   };
+
+
   var postVersionButtons = document.getElementsByClassName('expertise-toggle-option');
   for (var i = 0; i < postVersionButtons.length; i++) {
     postVersionButtons[i].addEventListener('click', postVersionClickHandler);
   }
+});
 </script>
 
 {{content}}

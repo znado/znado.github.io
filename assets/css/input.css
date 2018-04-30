@@ -1,0 +1,28 @@
+div.input-wrapper {
+  display: inline-block;
+  width: 34px;
+}
+.decrement-arrow, .increment-arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  cursor: pointer;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
+}
+.increment-arrow {
+  border-bottom: 10px solid #84C0C6;
+}
+.decrement-arrow {
+  border-top: 10px solid #84C0C6;
+}
+.input-text {
+  border: 0;
+  border-bottom: 1px solid #84C0C6;
+  color: #84C0C6;
+  display: block;
+  margin: 3px auto;
+  text-align: center;
+  width: 26px;
+}

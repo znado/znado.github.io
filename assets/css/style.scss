@@ -11,6 +11,46 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background: #2371a9;
+  color: #fafeff;
+}
+::-moz-selection {
+  background: #2371a9;
+  color: #fafeff;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 80%;
+}
+
+header {
+  width: 100%;
+  float: none;
+  position: static;
+  margin-bottom: 50px;
+}
+section {
+  width: 100%;
+  float: none;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+#header-horizontal * {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 3px;
+}
+
+
+footer {
+  float: none;
+  position: static;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
 .social-icon {
   display: inline-block;
   height: 24px;
@@ -18,17 +58,33 @@ a {
 }
 /* Note: background-size has to be below background */
 #twitter-logo {
+  background: url(/assets/images/twitter_gray.svg);
+  background-size: 24px 24px;
+}
+#twitter-logo:hover {
   background: url(/assets/images/twitter.svg);
   background-size: 24px 24px;
 }
 #github-logo {
+  background: url(/assets/images/github_gray.svg);
+  background-size: 24px 24px;
+}
+#github-logo:hover {
   background: url(/assets/images/github.svg);
+  background-size: 24px 24px;
+}
+#rss-logo {
+  background: url(/assets/images/rss_gray.svg);
+  background-size: 24px 24px;
+}
+#rss-logo:hover {
+  background: url(/assets/images/rss.svg);
   background-size: 24px 24px;
 }
 
 #expertise-toggle-wrapper {
   display: block;
-  width: 45%;
+  width: 50%;
   margin: 0 auto 16px auto;
 }
 .expertise-toggle-option {
@@ -37,7 +93,7 @@ a {
   text-align: center;
   padding: 5px 0;
   white-space: nowrap;
-  width: 45%;
+  width: 47%;
 }
 .expertise-toggle-option:link, .expertise-toggle-option:visited, .expertise-toggle-option:hover, .expertise-toggle-option:active {
   color: #fafafa;
@@ -62,4 +118,11 @@ a {
 #expert-mode[version-selected="true"] {
   background-color: #e71d36;
   color: #fafafa;
+}
+
+#about-headshot {
+  border-radius: 10px;
+  float: right;
+  margin: 0 20px;
+  width: 200px;
 }
