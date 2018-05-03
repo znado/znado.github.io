@@ -243,6 +243,7 @@ let generateRandomImages = function (modelIndex, randomContexts, batchSize, hpar
 
 let changeModel = function (modelIndex, cornerContexts, randomContexts,
     cornerInputManager, arithmeticInputManager) {
+  $(".pusheen-loading-image").show();
   let modelWeights = modelHparamMap[modelIndex][0];
   let hparams = modelHparamMap[modelIndex][1];
   $('#pusheen-random-images').attr('src','/assets/pusheen/images/random_v' + modelIndex + '.png');
@@ -250,6 +251,7 @@ let changeModel = function (modelIndex, cornerContexts, randomContexts,
   $('#pusheen-arithmetic-images').attr('src','/assets/pusheen/images/arithmetic_v' + modelIndex + '.png');
   const varLoader = new dl.CheckpointLoader(modelWeights);
   varLoader.getAllVariables().then((modelVars) => {
+    $(".pusheen-loading-image").hide();
     // setup random demo
     $('#pusheen-random-demo-button').click(function () {
       generateRandomImages(modelIndex, randomContexts, batchSize, hparams, modelVars);
