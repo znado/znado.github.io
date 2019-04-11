@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   height="256"
+   width="256"
+   viewBox="0 0 8 8"
+   id="RSSicon"
+   sodipodi:docname="rss_gray.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="1063"
+     id="namedview5993"
+     showgrid="false"
+     inkscape:zoom="3.4335938"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="1920"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="RSSicon" />
+  <metadata
+     id="metadata4942">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>RSS feed icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4940">
+    <filter
+       id="filter4946"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Colorize">
+      <feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix4944"
+         values="-10 -10 -10 0.1 0 -10 -10 -10 0.1 0 -10 -10 -10 0.1 0 0 0 0 1 0 " />
+      <feColorMatrix
+         id="feColorMatrix4948"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         result="fbSourceGraphic"
+         in="fbSourceGraphic"
+         values="-10 -10 -10 0.1 0 -10 -10 -10 0.1 0 -10 -10 -10 0.1 0 0 0 0 1 0 "
+         id="feColorMatrix4950" />
+      <feColorMatrix
+         id="feColorMatrix4952"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         result="fbSourceGraphic"
+         in="fbSourceGraphic"
+         values="-10 -10 -10 0.1 0 -10 -10 -10 0.1 0 -10 -10 -10 0.1 0 0 0 0 1 0 "
+         id="feColorMatrix4954" />
+      <feColorMatrix
+         id="feColorMatrix4956"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         values="-10 -10 -10 0.1 0 -10 -10 -10 0.1 0 -10 -10 -10 0.1 0 0 0 0 1 0 "
+         id="feColorMatrix4958"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5995" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite5997"
+         operator="arithmetic"
+         k1="1.6"
+         k2="1.4"
+         result="composite1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5999"
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1" />
+      <feFlood
+         id="feFlood6001"
+         flood-opacity="1"
+         flood-color="rgb(34,34,34)"
+         result="flood1" />
+      <feBlend
+         in2="colormatrix1"
+         id="feBlend6003"
+         in="flood1"
+         mode="normal"
+         result="blend1" />
+      <feBlend
+         in2="blend1"
+         id="feBlend6005"
+         mode="normal"
+         result="blend2" />
+      <feColorMatrix
+         id="feColorMatrix6007"
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite6009"
+         in="colormatrix2"
+         operator="in"
+         k2="1"
+         result="composite2" />
+    </filter>
+  </defs>
+  <title
+     id="title4925">RSS feed icon</title>
+  <style
+     id="style4927"
+     type="text/css">
+    .button {stroke: none; fill: orange;}
+    .symbol {stroke: none; fill: white;}
+  </style>
+  <rect
+     style="filter:url(#filter4946)"
+     id="rect4929"
+     rx="1.5"
+     height="8"
+     width="8"
+     class="button" />
+  <circle
+     id="circle4931"
+     r="1"
+     cy="6"
+     cx="2"
+     class="symbol" />
+  <path
+     id="path4933"
+     d="m 1,4 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4 z"
+     class="symbol" />
+  <path
+     id="path4935"
+     d="m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z"
+     class="symbol" />
+</svg>
