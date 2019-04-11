@@ -24,9 +24,10 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <a href="/"><h1>{{ site.title }}</h1></a>
+    <header>
+      <div id="hero-image"></div>
+      <div id="header-wrapper">
+        <a id="site-title" href="/"><h1>{{ site.title }}</h1></a>
         <div id="header-horizontal">
           <p>{{ site.description }}</p>
           <a href="/about"><p>About</p></a>
@@ -34,7 +35,9 @@
           <a href="https://github.com/znado" target="_blank" class="social-icon" id="github-logo"></a>
           <a href="/feed.xml" target="_blank" class="social-icon" id="rss-logo"></a>
         </div>
-      </header>
+      </div>
+    </header>
+    <div class="wrapper">
       <section>
         {{ content }}
       </section>

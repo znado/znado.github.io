@@ -5,6 +5,8 @@
 
 body {
   background-color: #fafeff;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 a {
@@ -30,6 +32,15 @@ header {
   float: none;
   position: static;
   margin-bottom: 50px;
+  overflow: hidden;
+  height: 580px;
+}
+header a, header a:hover {
+  color: #727272;
+}
+header h1, header p {
+  filter: invert(1) contrast(500%);
+  mix-blend-mode: difference;
 }
 section {
   width: 100%;
@@ -38,6 +49,25 @@ section {
   text-align: justify;
 }
 
+@media screen and (max-width: 700px) {
+  header {
+    height: 280px;
+  }
+  #hero-image {
+    height: 280px !important;
+  }
+}
+#hero-image {
+  margin: 0 0 -100px 0;
+  height: 580px;
+  max-width: 100%;
+  background-attachment: fixed;
+}
+#header-wrapper {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+}
 #header-horizontal * {
   display: inline-block;
   vertical-align: middle;
