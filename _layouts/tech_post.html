@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // won't be run but that's a risk I'm willing to take.
   var nonExpertVersionToggleButton = document.getElementById('non-expert-mode');
   var expertVersionToggleButton = document.getElementById('expert-mode');
-  var nonExpertpostVersionDescription = document.getElementById('non-expert-version-description');
-  var expertpostVersionDescription = document.getElementById('expert-version-description');
-  var nonExpertpostVersionContents = document.getElementsByClassName('non-expert-version-content');
-  var expertpostVersionContents = document.getElementsByClassName('expert-version-content');
+  var nonExpertPostVersionDescription = document.getElementById('non-expert-version-description');
+  var expertPostVersionDescription = document.getElementById('expert-version-description');
+  var nonExpertPostVersionContents = document.getElementsByClassName('non-expert-version-content');
+  var expertPostVersionContents = document.getElementsByClassName('expert-version-content');
 
   var hide = function (elements) {
     for (var i = 0; i < elements.length; i++) {
@@ -39,17 +39,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if (expert) {
       nonExpertVersionToggleButton.setAttribute('version-selected', 'false');
       expertVersionToggleButton.setAttribute('version-selected', 'true');
-      nonExpertpostVersionDescription.style.display = 'none';
-      expertpostVersionDescription.style.display = 'block';
-      hide(nonExpertpostVersionContents);
-      show(expertpostVersionContents);
+      hide([nonExpertPostVersionDescription]);
+      show([expertPostVersionDescription]);
+      hide(nonExpertPostVersionContents);
+      show(expertPostVersionContents);
     } else {
       nonExpertVersionToggleButton.setAttribute('version-selected', 'true');
       expertVersionToggleButton.setAttribute('version-selected', 'false');
-      nonExpertpostVersionDescription.style.display = 'block';
-      expertpostVersionDescription.style.display = 'none';
-      show(nonExpertpostVersionContents);
-      hide(expertpostVersionContents);
+      show([nonExpertPostVersionDescription]);
+      hide([expertPostVersionDescription]);
+      show(nonExpertPostVersionContents);
+      hide(expertPostVersionContents);
     }
   };
 
