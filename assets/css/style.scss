@@ -12,13 +12,18 @@ body {
 a {
   text-decoration: none;
 }
+a:not(header a):hover, a:not(header a):focus {
+  color: #fafeff;
+  font-weight: normal;
+  background: #006192;
+}
 
 ::selection {
-  background: #2371a9;
+  background: #006192;
   color: #fafeff;
 }
 ::-moz-selection {
-  background: #2371a9;
+  background: #006192;
   color: #fafeff;
 }
 
