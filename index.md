@@ -1,6 +1,6 @@
 ---
 title: Zack Nado
-layout: default
+layout: home
 ---
 
 ### This is my site!  I write things here about AI, cats, and/or space.
