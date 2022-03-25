@@ -84,20 +84,18 @@ footer {
 }
 /* Note: background-size has to be below background */
 #twitter-logo {
-  background: url(/assets/images/twitter_gray.svg);
-  background-size: 24px 24px;
+  background: url(/assets/images/twitter_combined.svg);
+  background-size: 24px 48px;
 }
 #twitter-logo:hover {
-  background: url(/assets/images/twitter.svg);
-  background-size: 24px 24px;
+  background-position: 0 -24px;
 }
 #github-logo {
-  background: url(/assets/images/github_gray.svg);
-  background-size: 24px 24px;
+  background: url(/assets/images/github_combined.svg);
+  background-size: 24px 48px;
 }
 #github-logo:hover {
-  background: url(/assets/images/github.svg);
-  background-size: 24px 24px;
+  background-position: 0 -24px;
 }
 #rss-logo {
   background: url(/assets/images/rss_gray.svg);
